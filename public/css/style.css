@@ -154,3 +154,9 @@ section h2 {
         padding: 24px;
     }
 }
+
+.error-message {
+    color: #dc2626;
+    font-size: 14px;
+    margin-top: 6px;
+}
