@@ -68,3 +68,89 @@ section h2 {
 .secondary-button:hover {
     background-color: #eff6ff;
 }
+
+/* =========================
+   Login Page
+   ========================= */
+
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f7fb;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.login-card h1 {
+    margin: 0;
+    text-align: center;
+    color: #2563eb;
+    font-size: 32px;
+}
+
+.login-subtitle {
+    text-align: center;
+    color: #6b7280;
+    margin: 8px 0 28px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.login-card .primary-button {
+    width: 100%;
+    margin-top: 4px;
+}
+
+.register-text {
+    text-align: center;
+    margin-top: 22px;
+    color: #6b7280;
+}
+
+.register-text a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+    .login-card {
+        margin: 20px;
+        padding: 24px;
+    }
+}

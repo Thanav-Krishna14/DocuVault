@@ -1,0 +1,1 @@
+console.log("DocuVault authentication JavaScript loaded!");
